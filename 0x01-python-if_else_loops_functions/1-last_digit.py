@@ -7,7 +7,7 @@ if number >= 0:
 else:
     lastdigit = (-number % 10) * -1
 
-message = f"last digit of {number} is {lastdigit}"
+message = f"Last digit of {number} is {lastdigit}"
 if lastdigit == 0:
     print(f"{message} and is 0")
 elif lastdigit < 6 and lastdigit != 0:
